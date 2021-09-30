@@ -1,0 +1,7 @@
+var tag = document.getElementsByTagName("a");
+
+for(var i = 0; i < tag.length; i++)
+{
+    console.log(tag[i].href);
+}
+console.log((tag.length - 15) / 3);
